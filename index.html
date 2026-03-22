@@ -31,8 +31,36 @@
         padding: 5px;
         font-size: 0.9em;
     }
-    
+    .sidebar{
+        width: 200px;
+        vertical-align: top;
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-right: 1px solid #ccc;
+    }
+    .menu-box{
+        border: 1px solid #ddd;
+        background-color: #eee;
+    }
+    .menu-title{
+        background-color: #ddd;
+        padding: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .menu-list{
+        list-style-type: disc;
+        padding-left: 25px;
+        line-height: 1.8;
+    }
+    .main-content{
+        padding: 20px;
+        vertical-align: top;
+        height: 300px;
+    }
+
 </style>
+
 <body>
 
     <table class="container">
@@ -46,6 +74,26 @@
         <tr>
             <td colspan="2" class="subheader">
                 Usando tabelas em HTML
+            </td>
+        </tr>
+
+        <tr>
+            <td class="sidebar">
+                <div class="menu-box">
+                    <div class="menu-title">Menu</div>    
+                    <ul class="menu-list">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                </ul>
+                </div>
+            </td>
+            <td class="main-content">
+                <h2 style="margin-top: 0;">Bem-vindo!</h2>
+                <hr>
+                <p>Este é um exemplo de site criado utilizando tabelas.</p>
+                <p>Antigamente, esse era um método comum para estruturar páginas.</p>
             </td>
         </tr>
 
